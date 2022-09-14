@@ -7,13 +7,72 @@
     <title>Document</title>
 </head>
 <body>
-    <form onsubmit="console.log"></form>
 
-    <select> 
-        <label for="password">Contraseña</label>
-        <input type="password"></input>
+<!-- Decoracion del sitio -->
+    <style>
 
-     </select>
-    
+    body{
+        background-color: rgb(243, 243, 243);
+    }
+
+     #box-1 {
+        font-family: monospace;
+        background-color: #93C7C7;
+        max-width: 350px;
+        margin:    40px;
+    }
+
+     #box-2{
+        max-width: 350px;
+        max-height: 150px;     
+    }
+
+     #box-3{
+        max-width: 350px;
+        max-height: 150px;
+        margin-top: 7px;
+    }
+     
+    </style>
+
+<!-- Caja de datos del usuario -->
+
+    <form id="box-1" target="_blank">
+
+        <div id="box-2">
+            <label for="email">Email  </label>
+            <input id="email" type="text" placeholder="Ingrese su correo">
+        </div>
+      
+        <div id="box-3">
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="ingrese su contraseña">
+        </div>
+      
+        <div>
+            <button type="submit">Inicio</button>
+        </div>
+      
+      </form>
+
+    <script>
+
+        var form=document.getElementById('box-1'); {
+        function submitHandler(i) 
+        {
+        let email = document.getElementById('email').value;
+        console.log(email);
+        i.preventDefault();
+
+        let password = document.getElementById('password').value;
+        console.log(password);
+        i.preventDefault();
+       }
+    }
+    form.addEventListener("submit", submitHandler);
+
+    </script>
+
+      
 </body>
 </html>
