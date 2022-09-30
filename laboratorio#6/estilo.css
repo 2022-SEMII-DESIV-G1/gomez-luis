@@ -1,0 +1,26 @@
+body {
+    font-family: arial;
+}
+.jane-joe {
+    color:#375e97;
+    border-bottom: solid 1px #375e97;
+    font-family: Georgia;
+}
+
+.tittle-web{
+    color:#999999;
+}
+
+.box-1 {
+    border: solid 1px black;
+    padding: 1rem;
+    margin: 5rem;  
+}
+
+.link {
+    text-decoration: underline #fb6542;
+    color: #fb6542;
+}
+ol {
+    list-style-type: disc;
+}
