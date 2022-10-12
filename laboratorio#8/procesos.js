@@ -1,0 +1,1 @@
+function calculos = document.getElementById("datos").ariaValueMax
