@@ -6,6 +6,7 @@ body{
     display: flex;
     color: azure;
     background-color:white;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -62,4 +63,9 @@ input{
     border-radius: 5px;
     align-items: center;
     justify-content: center;
+}
+.resultado  {
+    display: flex;
+    flex-direction: column;
+    color: black;
 }

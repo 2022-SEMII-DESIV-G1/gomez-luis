@@ -7,7 +7,6 @@ function order() {
 
   for (let i = 0; i < store.length; i++){
     if (store[i+1] === store[i]){
-      console.log("se repite" + store[i]);
       counter++;
     }else{
       singleelement.push(store[i]);
@@ -19,6 +18,8 @@ function order() {
     console.log("el valor" + singleelement[j] + "se repite" + repeat[j]);
   }
 }
+
+// Funcion de limpiar elementos introducidos
 function clean(cadena) {
   document.getElementById(cadena).value = "";
 
