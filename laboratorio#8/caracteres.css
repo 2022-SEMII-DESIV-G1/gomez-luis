@@ -22,7 +22,7 @@ body{
 .button_{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .input_{
     display: flex;
@@ -35,12 +35,12 @@ body{
     background: #0085FF;
     justify-content: center;
     align-items: center;
-    width: 85px;
-    height: 35px;
-    padding: 3%;
+    width: 120px;
+    height: 45px;
+    padding: 2%;
     margin: 20px;
     border: transparent;
-    border-radius: 4px;  
+    border-radius: 6px;  
 }
 .clean{
     display: flex;
@@ -48,16 +48,16 @@ body{
     background-color: #FF0000;
     justify-content: center;
     align-items: center;
-    width: 85px;
-    height: 35px;
-    padding: 3%;
+    width: 120px;
+    height: 45px;
+    padding: 2%;
     margin: 20px;
     border: transparent;
-    border-radius:  4px;
+    border-radius:  6px;
 }
 input{
     display: flex;
-    width: 44.7vh;
+    width: 48.5vh;
     padding: 3%;
     border: transparent;
     border-radius: 5px;
