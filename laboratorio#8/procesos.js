@@ -14,13 +14,15 @@ function order() {
       counter = 1;
     }
   }
-  for(let j = 0; j < singleelement.length; j++){
-    console.log("el valor" + singleelement[j] + "se repite" + repeat[j]);   
-  document.getElementById('resultado').innerHTML = (singleelement[j] +": "+ repeat[j]);
-  }
+    document.getElementById('clean_').style.visibility = 'visible';
+
+    singleelement.forEach((l, i) => {
+      document.getElementById('result').innerHTML +="<p>" + singleelement[i] + " = " + repeat[i] + "</p>";
+    });
 }
 // Funcion de limpiar elementos introducidos
 function clean(cadena) {
-  document.getElementById(cadena).value = "";
-
+  document.getElementById('cadena').value = "";
+  document.getElementById('result').innerHTML= " ";
+  document.getElementById('clean_').style.visibility = 'hidden';
 }
