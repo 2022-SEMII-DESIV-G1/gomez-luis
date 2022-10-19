@@ -19,21 +19,19 @@
                     </div>
                     <div class="button_">
                         <div>
-                            <button type="button" id="clean_" class="clean" onclick="clean('cadena')">Limpiar</button>
+                            <button type="button" id="clean_" class="clean" onclick="clean()" style="visibility: hidden">Limpiar</button>
                         </div>
                         <div>
-                            <button type="button" id="order_" class="calculator" onclick="order('cadena')">Calcular</button>
+                            <button type="button" id="order_" class="calculator" onclick="order()">Calcular</button>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
-        <br>
-        <br>
-         <div class="resultado">
-            <h2>Letras</h2>
-              <ul  id="resultado"></ul>
-          <div><script src="procesos.js"></script></div>
-    </div>
+
+        <h2>Letras</h2>
+         <div class="resultado" id="result"></div>
+
+         <script src="procesos.js"></script>
 </body>
 </html>
